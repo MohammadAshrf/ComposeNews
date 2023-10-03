@@ -1,9 +1,8 @@
-package com.example.composenews.api
+package com.example.composenews
 
-import com.example.composenews.R
-import com.example.newsappcompose.api.model.Category
+import com.example.composenews.api.model.Category
 
-object ApiConstants {
+object Constants {
     const val apiKey="033795044a8a4af09d41c3164d0c736f"
 
     val categories = listOf(

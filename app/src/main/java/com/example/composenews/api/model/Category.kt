@@ -1,4 +1,4 @@
-package com.example.newsappcompose.api.model
+package com.example.composenews.api.model
 
 data class Category(
     val apiID: String,

@@ -55,6 +55,8 @@ dependencies {
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     //room
     val roomVersion = "2.5.2"
 
@@ -74,7 +76,7 @@ dependencies {
     // Lifecycle utilities for Compose
     implementation("androidx.lifecycle:lifecycle-runtime-compose:$lifecycle_version")
 
-    val nav_version = "2.7.1"
+    val nav_version = "2.7.3"
     // Fragments
     implementation("androidx.navigation:navigation-compose:$nav_version")
 
